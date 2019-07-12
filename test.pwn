@@ -1,7 +1,7 @@
 #define RUN_TESTS
 
 #include <a_samp>
-#include <YSI\y_testing>
+#include <YSI_Core\y_testing>
 
 #include "../../a_postgres.inc"
 
@@ -10,7 +10,7 @@ main() {
 }
 
 Test:RunTest() {
-    new ret = MyFunction();
+    new ret = Greet();
     printf("ret: %d", ret);
-    ASSERT(ret == 1);
+    ASSERT(ret == 0);
 }
