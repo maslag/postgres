@@ -1,0 +1,23 @@
+{
+  "user": "maslag",
+  "repo": "postgres",
+  "entry": "test.pwn",
+  "output": "test/gamemodes/test.amx",
+  "dependencies": ["Southclaws/samp-stdlib"],
+  "dev_dependencies": ["pawn-lang/YSI-Includes"],
+  "runtime": {
+    "plugins": ["maslag/postgres"]
+  },
+  "resources": [
+    {
+      "name": "postgres.so",
+      "archive": false,
+      "platform": "linux"
+    },
+    {
+      "name": "postgres.dll",
+      "archive": false,
+      "platform": "windows"
+    }
+  ]
+}

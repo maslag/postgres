@@ -1,0 +1,10 @@
+{
+    "gamemodes": ["test"],
+    "plugins": ["postgres"],
+    "rcon_password": ";,JoTh826/:?",
+    "port": 7777,
+    "hostname": "PostgreSQL Plugin Tester",
+    "maxplayers": 32,
+    "mode": "y_testing"
+  }
+  
